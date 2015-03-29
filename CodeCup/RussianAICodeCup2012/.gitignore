@@ -1,0 +1,12 @@
+/.project
+/out
+/bin
+/.settings
+/.idea
+/target
+/.classpath
+*.iml
+*.ipr
+*.iws
+*.ids
+/localRunner/result.txt
