@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="Background image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button_single_player"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/single_player"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/button_multi_player"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/multi_player"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/button_options"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/options"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/button_score"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/score"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/button_about"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/game_about"
+                android:textSize="35sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

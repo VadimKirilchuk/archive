@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd main
+zip -r -0 ../main.1.com.forlulz.lol.obb .
+

@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">LoLGuessHero</string>
+    <string name="single_player">Single player</string>
+    <string name="multi_player">Play online</string>
+    <string name="options">Options</string>
+    <string name="score">Score</string>
+    <string name="game_about">About</string>
+
+    <string name="ok">Ok</string>
+    <string name="hero_guess_failed">You are wrong</string>
+
+</resources>

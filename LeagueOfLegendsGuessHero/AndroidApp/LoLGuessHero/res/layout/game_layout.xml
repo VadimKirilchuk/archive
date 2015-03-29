@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp" >
+
+        <ProgressBar
+            android:id="@+id/healthbar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:indeterminate="false"
+            android:indeterminateOnly="@android:color/transparent"
+            android:max="100"
+            android:progress="100"
+            android:progressDrawable="@drawable/healthbar" />
+
+        <ProgressBar
+            android:id="@+id/manabar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/healthbar"
+            android:layout_margin="1dp"
+            android:max="100"
+            android:progress="100"
+            android:progressDrawable="@drawable/manabar" />
+
+        <TextView
+            android:id="@+id/countdown_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="" />
+
+    </RelativeLayout>
+
+    <!--
+    SurfaceView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/imagesurface"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:background="#00ff00">
+    </SurfaceView
+    -->
+
+    <GridView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnWidth="40dp"
+        android:gravity="center"
+        android:horizontalSpacing="5dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp" />
+
+</LinearLayout>
